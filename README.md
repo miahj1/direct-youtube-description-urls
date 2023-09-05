@@ -10,7 +10,4 @@ If you liked this script and want me to contine maitainting it, please consider 
 
 https://ko-fi.com/jabedmiah
 
-[<img alt="Donate to the developer on Ko-Fi." width="50%" src="https://github.com/miahj1/direct-youtube-description-urls/assets/84815985/567eb7ac-5d8b-470f-a8ab-0d398d658c80"/>](https://ko-fi.com/jabedmiah)
-
-
-[<img src="https://github.com/miahj1/direct-youtube-description-urls/assets/84815985/567eb7ac-5d8b-470f-a8ab-0d398d658c80">](https://ko-fi.com/jabedmiah)
+<img alt="Donate to the developer on Ko-Fi." width="50%" src="https://github.com/miahj1/direct-youtube-description-urls/assets/84815985/567eb7ac-5d8b-470f-a8ab-0d398d658c80"/>
