@@ -31,7 +31,6 @@ function check(changes, observer) {
     const metaDataCollapsed = document.getElementsByClassName("item style-scope ytd-watch-metadata")[2]
     if (metaDataCollapsed) {
         metaDataCollapsed.addEventListener("click", urlEventHandler)
-        console.log("The element has been clicked.")
         observer.disconnect();
     } 
 };
