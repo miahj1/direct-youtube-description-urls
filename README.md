@@ -4,3 +4,8 @@ I’ve wanted to share a specific link from a YouTube description, and it’s a 
 | Before             |  After |
 :-------------------------:|:-------------------------:
 ![](https://github.com/miahj1/direct-youtube-description-urls/assets/84815985/e65af8d3-9670-4f7b-a8c1-b4c647449c53)  |  ![](https://github.com/miahj1/direct-youtube-description-urls/assets/84815985/10fc01fe-1312-4642-8185-a66d95186414)
+
+# Donate
+If you liked this script, and want me to contine maitainting it--please drop a donation, thank you.
+
+[<img alt="Donate to the developer on Ko-Fi." width="50%" src="https://github.com/miahj1/direct-youtube-description-urls/assets/84815985/567eb7ac-5d8b-470f-a8ab-0d398d658c80"/>](https://ko-fi.com/jabedmiah)
