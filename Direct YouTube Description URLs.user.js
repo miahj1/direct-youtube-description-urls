@@ -17,9 +17,9 @@ function urlEventHandler() {
     const allDescUrls = description.getElementsByTagName("a");
 
     for (let i = 0; i < allDescUrls.length; i++) {
-        if (allDescUrls[i].text.startsWith("https://") === true){
+        if (allDescUrls[i].text.startsWith("https://") === true) {
             allDescUrls[i].href = allDescUrls[i].text;
-        } else if (allDescUrls[i].text.startsWith("http://") == true){
+        } else if (allDescUrls[i].text.startsWith("http://") == true) {
             let httpToHttps = allDescUrls[i].text.replace('http', 'https')
             allDescUrls[i].href = httpToHttps;
             allDescUrls[i].text = httpToHttps;
