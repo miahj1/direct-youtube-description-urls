@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Direct YouTube Description URLs
 // @namespace    https://www.jabedmiah.com
-// @version      3.3
+// @version      3.3.1
 // @description  Changes the masked urls in youtube descriptions to their direct versions.
 // @author       Jabed Miah
 // @match        https://www.youtube.com/watch*
@@ -17,14 +17,12 @@ function descEventHandler() {
     const allDescUrls = descExpanded.getElementsByTagName("a");
 
     for (let i = 0; i < allDescUrls.length; i++) {
-        if (allDescUrls[i].href.startsWith("https://www.youtube.com/redirect?event=video_description")){
-            if (allDescUrls[i].text.startsWith("https://")) {
-                allDescUrls[i].href = allDescUrls[i].text;
-            } else if (allDescUrls[i].text.startsWith("http://")) {
-                let httpToHttps = allDescUrls[i].text.replace('http', 'https');
-                allDescUrls[i].href = httpToHttps;
-                allDescUrls[i].text = httpToHttps;
-            }
+        if (allDescUrls[i].text.startsWith("https://")) {
+            allDescUrls[i].href = allDescUrls[i].text;
+        } else if (allDescUrls[i].text.startsWith("http://")) {
+            let httpToHttps = allDescUrls[i].text.replace('http', 'https');
+            allDescUrls[i].href = httpToHttps;
+            allDescUrls[i].text = httpToHttps;
         }
     }
 }
