@@ -27,7 +27,7 @@ function descEventHandler() {
             }
         }
     }
-};
+}
 
 function elementCheck(changes, observer) {
     const desc = document.getElementsByClassName("item style-scope ytd-watch-metadata")[2];
@@ -38,4 +38,4 @@ function elementCheck(changes, observer) {
         });
         observer.disconnect();
     }
-};
+}
