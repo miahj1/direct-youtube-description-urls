@@ -1,5 +1,5 @@
 # Direct YouTube Description URLs
-I’ve wanted to share a specific link from a YouTube description, and it’s a heavy, confusing, and ugly url. Effectively, forcing me to drag the insertion cursor over the text which is time consuming. The script fixes these issues, changing those pesky URLs in descriptions of YouTube videos to their more beautiful and direct versions. During development of the userscript, the YouTube channels I tested it on have “http” links in their descriptions to remedy this problem: the script changes “http” links to “https” links.
+I’ve wanted to share a specific link from a YouTube description, and it’s a heavy, confusing, and ugly url. Effectively, forcing me to drag the insertion cursor over the text which is time consuming. The script fixes these issues, changing those pesky URLs in descriptions of YouTube videos to their more beautiful and direct versions. 
 
 | Before             |  After |
 :-------------------------:|:-------------------------:
